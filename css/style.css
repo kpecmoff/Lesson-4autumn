@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); 
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Larsseit;
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Larsseit;
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#header{
+    background-color: rgb(63, 61, 61);
+    color: #fff;
+}
+
+body{
+    font-size: 18px;
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+footer{
+    color: #fff;
+    background-color: rgb(63, 61, 61);
+}
+
+footer a{
+    color: #fff;
+}
+
+footer p{
+color: blueviolet;
+}
+
+b{
+    color: green;
+    font-style: italic;
+}
+
+p>a{
+    color: red;
+}
+
+.list{
+	font-family: Lato;
+	color: rgba(47, 12, 247, 0.993);
+}
+
+.color{
+	color: rgba(68, 6, 6, 0.333);
+}
+
+#clinic{
+	font-family: Roboto;
+}
+
+.font{
+	font-family: Lato;
+	font-weight: 400;
+}
+
+#clinic.font{
+	font-family: Larsseit;
+	color: blue;
+	font-weight: 700;
+}
+
+#photographer{
+	color: black;
+	font-family: Larsseit;
+	font-weight: 700;
+}
+
+.font.color{
+	color: #9ACD32;
+}
+
+#photographer.font.color{
+	color: #FF4500;
+
+}
+
+#photographer.font.color h2{
+	color: #32CD32;
+	font-family: Roboto;
+	font-weight: 900;
+}
